@@ -1,0 +1,5 @@
+https://www.metoffice.gov.uk/pub/data/weather/uk/climate/datasets/Tmean/date/UK.txt
+https://www.theatlas.com/charts/r18c54DYG
+https://datahub.io/core/co2-fossil-global
+https://www.metoffice.gov.uk/hadobs/crutem4/data/diagnostics/time-series.html
+https://www.metoffice.gov.uk/hadobs/crutem4/data/diagnostics/global/nh+sh/index.html

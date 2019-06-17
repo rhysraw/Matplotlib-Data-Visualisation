@@ -1,0 +1,166 @@
+All noteable changes to this program will be documented in this file.
+This project adheres to semantic versioning. Written by Rhys Rawlings.
+
+** Definitions **
+
+** [MAJOR.MINOR.PATCH] - YYYY-MM-DD **
+
+# Changed - for changes in the existing funcitonality.
+# Added - for new features, both major and minor.
+# Deprecated - for soon-to-be removed features.
+# Enhancements - for soon-to-be added features.
+# Removed - for now removed features.
+# Defects - for any bug fixes in the existing functionality.
+
+
+** [1.0.0] - 2019-06-17 **
+
+# Changed
+- No changes made.
+
+# Added
+- Docstrings to main(), import_clean_process() and plot_data_matplotlib().
+- Comments to main(), import_clean_process() and plot_data_matplotlib().
+
+# Deprecated
+- No deprecations to note.
+
+# Enhancements
+- Plot the same data with the Seaborn library (purely for comparison purposes).
+
+# Removed
+- The uk_tmax, uk_tmin, global_temp_upper and global_temp_lower columns from
+  df_data (the dataframe with the data) as I wasn't going to need them for this
+  project.
+
+# Defects
+- No defects known. 
+
+
+** [0.3.0] - 2019-06-15 **
+
+# Changed
+- plot_data_matplotlib(), altered the red colour to compliment the blue.
+- plot_data_matplotlib(), the title to something appropriate.
+
+# Added
+- plot_data_matplotlib(), a second shaded region to the bottom subplot to
+  seperate the lack of temperature date for the UK.
+- plot_data_matplotlib(), coloured y axes to match the colours of the line
+  plots.
+- plot_data_matplotlib(), annotations to the shaded regions of the subplots to
+  explain their significance.
+
+# Deprecated
+- No deprecations to note.
+
+# Enhancements
+- plot_data_matplotlib(), plot the same data with the Seaborn library (purely
+  for comparison purposes).
+- Docstrings to each function.
+- Include comments.
+
+# Removed
+- import_clean_process(), removed the 2019 reading for UK temperature as it
+  isn't representative of the whole year.
+
+# Defects
+- No defects known.
+
+
+** [0.2.0] - 2019-06-10 **
+
+# Changed
+- plot_data_matplotlib(), The references to the colurs for the data are now
+  hexadecimal.
+- plot_data_matplotlib(), changed the colours of the plots to what I thought
+  were more appropriate appealing colours.
+
+# Added
+- plot_data_matplotlib(), a temporary title.
+- plot_data_matplotlib(), a shaded area to each subplot to indicate there is no
+  data available for this period.
+
+# Deprecated
+- No deprecations to note.
+
+# Enhancements
+- plot_data_matplotlib(), change the title to be more meaningful.
+- plot_data_matplotlib(), annotate the plot in the shaded region.
+- plot_data_matplotlib(), remove the 2019 reading for UK temperature as it
+  isn't representative of the whole year.
+- plot_data_matplotlib(), plot the same data with the Seaborn library (purely
+  for comparison purposes).
+
+# Removed
+- No features removed.
+
+# Defects
+- plot_data_matplotlib(), fixed the legend, so it is displayed correctly.
+
+
+** [0.1.0] - 2019-06-09 **
+
+# Changed
+- plot_data_matplotlib(), all scatter plots are now line plots, I felt this
+  presented the patterns in the data better.
+- plot_data_matplotlib(), changed the scale of the bottom subplot to match the
+  top.
+- plot_data_matplotlib(), set the x axis ticks to occur every 20 years, not 40.
+
+# Added
+- plot_data_matplotlib(), colours to each line plot.
+- plot_data_matplotlib(), appropriate units to each y axis.
+- plot_data_matplotlib(), some brief comments in the code to the styling of the
+  plot.
+
+# Deprecated
+- No deprecations to note.
+
+# Enhancements
+- plot_data_matplotlib(), add a title.
+- plot_data_matplotlib(), remove the 2019 reading for UK temperature as it
+  isn't representative of the whole year.
+- plot_data_matplotlib(), plot the same data with the Seaborn library (purely
+  for comparison purposes).
+- plot_data_matplotlib(), put the legend back in (the change to line plots
+  requires an alterante method to display the legend froom shared x axes).
+
+# Removed
+- plot_data_matplotlib(), the seaborn style for this plot, the
+  plot_data_matplotlib() function is to view the capability of matplotlib
+  alone.
+
+# Defects
+- No defects known.
+
+
+** [0.0.0] - 2019-05-28 **
+
+# Changed
+- First version, no changes made.
+
+# Added
+- First version, no features added.
+
+# Deprecated
+- First version, no features deprecated.
+
+# Enhancements
+- plot_data_matplotlib(), set a colour to each line.
+- plot_data_matplotlib(), add a title.
+- plot_data_matplotlib(), set both x axes to the same time period.
+- plot_data_matplotlib(), have "CO2" displayed correctly with the "2"
+  subscripted.
+- plot_data_matplotlib(), add the degrees symbol to temperature axes units.
+- plot_data_matplotlib(), add units to the left y axes.
+
+# Removed
+- First version, no features removed.
+
+# Defects
+- First version, no defects known.
+
+
+Further reading on a changelog, visit https://keepachangelog.com/en/1.0.0/
+Further reading on semantic versioning, visit https://semver.org/
