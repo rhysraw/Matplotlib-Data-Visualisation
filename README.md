@@ -30,14 +30,14 @@ I would reccommend downloading Anaconda as it contains all the above. Follow thi
   - UK Mean Temperature (Degrees C), the UK temperature data
   - links_to_data.txt, contains url's to the above datasets
   
-  ## Versioning
+## Versioning
   
-  Please see changeslog.txt for versioning history.
+Please see changeslog.txt for versioning history.
   
-  ## Authors
+## Authors
   
-  - Rhys Rawlings
+- Rhys Rawlings
   
-  ## Licence
+## Licence
   
-  This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
